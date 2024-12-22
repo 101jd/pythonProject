@@ -1,6 +1,6 @@
 import numbers
 
-import logs
+import task_1_logs as logs
 
 def test_method(a, b):
     if b == 0.0:
@@ -17,6 +17,4 @@ def test_method(a, b):
 test_method(2, 4)
 test_method("A", 4.0)
 test_method(1.0, 0.0)
-
-print(isinstance(1.0, numbers.Number))
 
